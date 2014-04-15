@@ -1,0 +1,2 @@
+SBT_OPTS="-Xms<%= node['sbt']['opt_xms'] %> -Xmx<%= node['sbt']['opt_xmx'] %> -Xss<%= node['sbt']['opt_xss'] %> -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=<%= node['sbt']['opt_maxperm'] %>"
+java $SBT_OPTS -jar `dirname $0`/<%= node['sbt']['jar_name'] %> "$@"

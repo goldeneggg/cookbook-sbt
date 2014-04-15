@@ -1,0 +1,8 @@
+default['sbt']['version'] = "0.13.0"
+default['sbt']['jar_name'] = "sbt-launch.jar"
+default['sbt']['bin_name'] = "sbt"
+default['sbt']['dir'] = "/usr/local/bin"
+default['sbt']['opt_xms'] = "512M"
+default['sbt']['opt_xmx'] = "1536M"
+default['sbt']['opt_xss'] = "1M"
+default['sbt']['opt_maxperm'] = "384M"
